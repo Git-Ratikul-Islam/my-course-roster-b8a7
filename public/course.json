@@ -3,7 +3,7 @@
             "id": "1",
             "img": "https://i.ibb.co/xjD4sKd/Rectangle-2.png",
             "title": "Introduction to C Programming",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Master C programming fundamentals and build a strong foundation for your coding journey.",
             "price": 15000,
             "credit": "1"
       },
@@ -11,7 +11,7 @@
             "id": "2",
             "img": "https://i.ibb.co/zxCkV4m/Rectangle-2-1.png",
             "title": "Introduction to Algorithms",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Explore algorithms, sharpen problem solving skills, and gain a competitive edge in programming.",
             "price": 25000,
             "credit": "2"
       },
@@ -19,7 +19,7 @@
             "id": "3",
             "img": "https://i.ibb.co/Rjn8RMT/Rectangle-2-2.png",
             "title": "Introduction to C++ for DSA",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Learn C++ for Data Structures and Algorithms preparation and excel in computer science.",
             "price": 10000,
             "credit": "10"
       },
@@ -27,7 +27,7 @@
             "id": "4",
             "img": "https://i.ibb.co/mCB9BrP/Rectangle-3.png",
             "title": "Basic Data Structures",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Build a strong foundation in data structures for efficient coding.",
             "price": 35000,
             "credit": "5"
       },
@@ -35,7 +35,7 @@
             "id": "5",
             "img": "https://i.ibb.co/1KgC4QJ/Rectangle-2-3.png",
             "title": "Introduction to OOP Python",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Master Python's OOP principles for software application development.",
             "price": 19000,
             "credit": "5"
       },
@@ -43,7 +43,7 @@
             "id": "6",
             "img": "https://i.ibb.co/W2DFJcH/Rectangle-2-4.png",
             "title": "Software Engineering",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Learn software engineering  and development methodologies.",
             "price": 23000,
             "credit": "2"
       },
@@ -51,7 +51,7 @@
             "id": "7",
             "img": "https://i.ibb.co/4t2kPTY/Rectangle-3-1.png",
             "title": "AWS, Cloud Computing",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Discover AWS and cloud computing, gaining hands-on experience in this evolving field.",
             "price": 18000,
             "credit": "5"
       },
@@ -59,7 +59,7 @@
             "id": "8",
             "img": "https://i.ibb.co/VSfWhMq/Rectangle-2-5.png",
             "title": "Database (MySQL)",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Master MySQL fundamentals, database design and querying.",
             "price": 35000,
             "credit": "5"
       },
@@ -67,7 +67,7 @@
             "id": "9",
             "img": "https://i.ibb.co/8D3bPrv/Rectangle-2-6.png",
             "title": "Problem-Solving Part",
-            "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+            "description": "Enhance problem-solving skills with proven techniques used by experts.",
             "price": 19000,
             "credit": "2"
       }

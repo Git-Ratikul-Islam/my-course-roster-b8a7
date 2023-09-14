@@ -11,29 +11,25 @@ const Home = () => {
             fetch('course.json')
                   .then(res => res.json())
                   .then(data => setCourse(data));
-      });
-      // console.log(setCourse);
+      }, []);
+      console.log(course);
 
 
-
-
-
-
-      return (<>
+      return <>
             <div className='lg:flex'>
                   <div className='w-5/6 gap-3 mx-10 flex flex-wrap'>
                         {
                               course.map(course => (
                                     <div key={course.id} className="card w-96 bg-base-100 shadow-xl ml-6">
                                           <figure className="px-10 pt-10">
-                                                <img src="https://i.ibb.co/8D3bPrv/Rectangle-2-6.png" />
+                                                <img src={course.img} />
                                           </figure>
                                           <div className="card-body text-start space-y-2">
-                                                <h2 className="card-title ml-6">Basic Data Structures</h2>
-                                                <p className='ml-6'>It is a long established fact that a reader br will be distracted by the readable content of a page when looking at its layout.</p>
+                                                <h2 className="card-title ml-6">{course.title}</h2>
+                                                <p className='ml-6 pr-[8px]'>{course.description}</p>
                                                 <div className='flex space-x-12 justify-evenly'>
-                                                      <h4> <FontAwesomeIcon icon={faDollarSign} />  Price: 2900</h4>
-                                                      <h4><FontAwesomeIcon icon={faBookOpen} /> Credit: 2</h4>
+                                                      <h4> <FontAwesomeIcon icon={faDollarSign} />  Price: {course.price}</h4>
+                                                      <h4><FontAwesomeIcon icon={faBookOpen} /> Credit: {course.credit}</h4>
                                                 </div>
                                                 <div className="card-actions mx-auto ">
                                                       <button className="btn btn-primary px-[105px] text-white bg-[#2F80ED] border-none">Buy Now</button>
@@ -52,8 +48,8 @@ const Home = () => {
 
 
 
-      </>
-      );
+      </>;
+
 };
 
 export default Home;
