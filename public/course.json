@@ -5,7 +5,7 @@
             "title": "Introduction to C Programming",
             "description": "Master C programming fundamentals and build a strong foundation for your coding journey.",
             "price": 15000,
-            "credit": "1"
+            "credit": 1
       },
       {
             "id": "2",
@@ -13,7 +13,7 @@
             "title": "Introduction to Algorithms",
             "description": "Explore algorithms, sharpen problem solving skills, and gain a competitive edge in programming.",
             "price": 25000,
-            "credit": "2"
+            "credit": 2
       },
       {
             "id": "3",
@@ -21,7 +21,7 @@
             "title": "Introduction to C++ for DSA",
             "description": "Learn C++ for Data Structures and Algorithms preparation and excel in computer science.",
             "price": 10000,
-            "credit": "10"
+            "credit": 10
       },
       {
             "id": "4",
@@ -29,7 +29,7 @@
             "title": "Basic Data Structures",
             "description": "Build a strong foundation in data structures for efficient coding.",
             "price": 35000,
-            "credit": "5"
+            "credit": 5
       },
       {
             "id": "5",
@@ -37,7 +37,7 @@
             "title": "Introduction to OOP Python",
             "description": "Master Python's OOP principles for software application development.",
             "price": 19000,
-            "credit": "5"
+            "credit": 5
       },
       {
             "id": "6",
@@ -45,7 +45,7 @@
             "title": "Software Engineering",
             "description": "Learn software engineering  and development methodologies.",
             "price": 23000,
-            "credit": "2"
+            "credit": 2
       },
       {
             "id": "7",
@@ -53,7 +53,7 @@
             "title": "AWS, Cloud Computing",
             "description": "Discover AWS and cloud computing, gaining hands-on experience in this evolving field.",
             "price": 18000,
-            "credit": "5"
+            "credit": 5
       },
       {
             "id": "8",
@@ -61,7 +61,7 @@
             "title": "Database (MySQL)",
             "description": "Master MySQL fundamentals, database design and querying.",
             "price": 35000,
-            "credit": "5"
+            "credit": 5
       },
       {
             "id": "9",
@@ -69,6 +69,6 @@
             "title": "Problem-Solving Part",
             "description": "Enhance problem-solving skills with proven techniques used by experts.",
             "price": 19000,
-            "credit": "2"
+            "credit": 2
       }
 ]
