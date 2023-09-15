@@ -10,6 +10,8 @@ import Cart from '../Cart/Cart';
 const Home = () => {
       const [course, setCourse] = useState([]);
       const [selectedCourse, setSelectedCourse] = useState([]);
+      const [remaining, setRemaining] = useState(20);
+      const [totalCost, setTotalCost] = useState(0);
       useEffect(() => {
             fetch('course.json')
                   .then(res => res.json())
@@ -31,9 +33,18 @@ const Home = () => {
                   selectedCourse.forEach((course) => {
                         count = count + course.credit;
                   });
-                  console.log(count);
 
-                  setSelectedCourse([...selectedCourse, course]);
+                  const totalRemaining = 20 - count;
+                  if (count > 20) {
+                        return alert('bhai tmi gorib');
+                  }
+                  else {
+                        setTotalCost(count);
+                        setRemaining(totalRemaining);
+                        setSelectedCourse([...selectedCourse, course]);
+                  }
+
+
             }
       };
       // console.log(selectedCourse);
@@ -64,7 +75,9 @@ const Home = () => {
                               ))
                         }
                   </div>
-                  <Cart selectedCourse={selectedCourse}></Cart>
+                  <Cart selectedCourse={selectedCourse} remaining={remaining}
+                        totalCost={totalCost}
+                  ></Cart>
 
             </div>
 
