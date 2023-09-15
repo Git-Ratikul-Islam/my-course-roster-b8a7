@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/jsx-key */
+import Swal from 'sweetalert2';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDollarSign, faBookOpen } from '@fortawesome/free-solid-svg-icons';
@@ -27,7 +28,11 @@ const Home = () => {
             let count = course.credit;
 
             if (isExist) {
-                  alert("selected");
+                  Swal.fire(
+                        "Oops...",
+                        "Can't select course twice!",
+                        'error'
+                  );
             }
             else {
                   selectedCourse.forEach((course) => {
@@ -36,13 +41,17 @@ const Home = () => {
 
                   const totalRemaining = 20 - count;
                   if (count > 20) {
-                        return alert('bhai tmi gorib');
-                  }
-                  else {
+                        Swal.fire(
+                              'Error!',
+                              'Your out of credit',
+                              'error'
+                        );
+                  } else {
                         setTotalCost(count);
                         setRemaining(totalRemaining);
                         setSelectedCourse([...selectedCourse, course]);
                   }
+
 
 
             }

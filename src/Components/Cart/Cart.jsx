@@ -11,8 +11,8 @@ const Cart = ({ selectedCourse, remaining, totalCost }) => {
                                     Course Name
                               </h1>
                               {
-                                    selectedCourse.map(course => (
-                                          <ol key={course.id} className="list-decima"><li>{course.title}</li></ol>
+                                    selectedCourse.map((course) => (
+                                          <li key={course.id} className="list-decimal">{course.title}</li>
                                     ))
                               }
 
